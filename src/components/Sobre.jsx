@@ -3,23 +3,24 @@ import React from 'react'
 function Sobre() {
   return (
     <section id="sobre" class="sobre">
+
         <h2 class="seccion-titulo">Sobre mi</h2>
         <div class="sobre-caixa">
             <p sobre-paragrafo>
               Hola, soy Sergio Coitiño, desarrollador web con enfoque en Front End y en formación para 
               convertirme en Full Stack Developer. He trabajado en proyectos utilizando HTML, CSS, JavaScript, 
               React JS, Vite, y también cuento con experiencia en backend con Node.js.
-              <br />
-              <br />
+              <br /><br />
               Me gusta construir interfaces funcionales y bien estructuradas, aplicar buenas prácticas y llevar 
               mis proyectos desde la idea hasta el despliegue usando Git, GitHub y servicios de hosting.
               Sigo aprendiendo y perfeccionando mis habilidades para crecer como profesional dentro del mundo del
                desarrollo web.
               </p>
-
-
         </div>
-        <div class="sobre-caixa caixa-tecnologias">
+
+        <br />
+        
+        <div class="sobre-caixa">
               <div class="skills-group">
                 <h4 className='tecnologias'>Tecnologías que utilizo</h4>
                 <br />
@@ -57,9 +58,11 @@ function Sobre() {
 
                 </div>
               </div>
+
               <br />
+
               <div class="skills-group">
-                <h4 className='tecnologias'>Actualmente estudiando / Mejorando</h4>
+                <h4 className='tecnologias'>Actualmente Estudiando / Mejorando</h4>
                 <br />  
                 <div class="skills-icons">
 
@@ -85,10 +88,8 @@ function Sobre() {
 
                 </div>
               </div>
-
-
-
         </div>
+
     </section>
   )
 }
