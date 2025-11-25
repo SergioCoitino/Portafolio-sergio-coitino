@@ -117,6 +117,41 @@ h1{
     font-size: 1.2rem;
 }
 
+.caixa-tecnologias{
+    margin-top: 2rem;
+}
+
+.tecnologias{
+    text-align: center;
+}
+
+
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;       /* permite que, si falta espacio, pasen a la siguiente fila */
+  justify-content: center;
+  gap: 5px;             /* espacio entre cada ícono */
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;          /* asegura que queden parejos en la fila */
+}
+
+.skill-item i {
+  font-size: 25px;
+}
+
+.skill-item p {
+  margin-top: 8px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
 .projetos{
     padding: 6rem 2rem;
 }
