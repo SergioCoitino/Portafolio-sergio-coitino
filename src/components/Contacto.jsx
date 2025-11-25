@@ -8,17 +8,16 @@ const Formulario = () => {
     event.preventDefault();
 
     const telefono = '5531989296557';
-    const texto = `Hola, me llamo ${nombre}, ${mensaje}.`;
+    const texto = `${mensaje}`;
 
     const mensajeFormato = encodeURIComponent(texto);
     const url = `https://wa.me/${telefono}?text=${mensajeFormato}`;
-    window.open(url, '_blank');
-  };
 
-      const restaurarFormulario = () => {
-      setNombre('');
-      setMensaje('');
-    }
+    window.open(url, '_blank');
+
+    setNombre('');
+    setMensaje('');
+  };
 
   return (
     <>
@@ -45,10 +44,12 @@ const Formulario = () => {
           />
         </div>
 
-        <button type="submit" onClick={restaurarFormulario} className="botao-form">Enviar WhatsApp</button>
+        <button type="submit"  className="botao-form">Enviar WhatsApp</button>
+        
     </form>
   </section>
-    <footer className='footer'>
+
+  <footer className='footer'>
           <a 
             href="https://github.com/SergioCoitino" 
             target="_blank"
