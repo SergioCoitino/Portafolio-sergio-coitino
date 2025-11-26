@@ -7,11 +7,14 @@ import Proyecto05 from '../assets/proyectos/StarWarsGallery.png'
 import Proyecto06 from '../assets/proyectos/StarWarsCharacters.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { getTranslation } from '../languages'
 
-function Proyectos() {
+
+const Proyectos = ({ lang, setLang }) => {
+    const t = getTranslation(lang);
   return (
     <section id="proyectos" className="projetos">
-        <h2 className="seccion-titulo">Mis Proyectos</h2>
+        <h2 className="seccion-titulo">{t.proyectos.titulo}</h2>
         <div className="projetos-caixa">
 
             <div className="projetos-card">
@@ -23,10 +26,7 @@ function Proyectos() {
                 </div>
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Calculadora IMC</h3>
-                    <p className="paragrafo-projetos">Este proyecto es una aplicación web interactiva que permite 
-                        a los usuarios calcular su IMC de manera rápida y sencilla. Cuenta con:
-                        interfaz amigable y responsiva, cálculo de IMC basado en la fórmula estándar, diseño atractivo 
-                        y minimalista y disponible en tres idiomas.</p>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion01}</p>
                 </div>
             </div>
 
@@ -39,10 +39,7 @@ function Proyectos() {
                 </div>
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Link In Bio</h3>
-                    <p className="paragrafo-projetos">Este proyecto es un perfil profesional en línea que muestra la 
-                        información de contacto y los enlaces a las redes sociales del usuario. El diseño es 
-                        minimalista y fácil de navegar, lo que lo hace ideal para cualquier profesional que desee tener
-                        una presencia en línea.</p>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion02}</p>
                 </div>
             </div>
 
@@ -55,9 +52,7 @@ function Proyectos() {
                 </div>
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Batman Page</h3>
-                    <p className="paragrafo-projetos"> Esta página web es un tributo a la película de 
-                        Batman dirigida por Christopher Nolan. Es una página que replica una web de 
-                        informacion y personajes de esta pelicula. Disponibe solo en portugués</p>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion03}</p>
                 </div>
             </div>
 
@@ -70,10 +65,7 @@ function Proyectos() {
                 </div>
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Portfolio</h3>
-                    <p className="paragrafo-projetos">Este proyecto es una aplicación web interactiva que permite 
-                        a los usuarios calcular su IMC de manera rápida y sencilla. Cuenta con:
-                        interfaz amigable y responsiva, cálculo de IMC basado en la fórmula estándar, diseño atractivo 
-                        y minimalista y disponible en tres idiomas.</p>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion04}</p>
                 </div>
             </div>
 
@@ -86,10 +78,7 @@ function Proyectos() {
                 </div>
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Star Wars Gallery</h3>
-                    <p className="paragrafo-projetos">StarWars Gallery es una aplicación web creada con React y Vite 
-                        que muestra personajes, planetas y naves de Star Wars mediante APIs públicas. Presenta una 
-                        galería dinámica, responsiva y basada en el ejemplo de Bootstrap Gallery, optimizada para 
-                        ofrecer una experiencia visual limpia, rápida y moderna.</p>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion05}</p>
                 </div>
             </div>
 
@@ -102,10 +91,7 @@ function Proyectos() {
                 </div>
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Star Wars Characters</h3>
-                    <p className="paragrafo-projetos">Star Wars Characters es una aplicación web desarrollada con HTML, 
-                        CSS y JavaScript que consume la API SWAPI para mostrar información y imágenes personalizadas 
-                        de personajes icónicos. Un proyecto enfocado en mejorar habilidades de front-end, manejo de 
-                        APIs y experiencia de usuario.</p>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion06}</p>
                 </div>
             </div>
         </div>

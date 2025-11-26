@@ -1,0 +1,37 @@
+
+{
+  "header": {
+    "inicio": "Inicio",
+    "sobre": "Sobre",
+    "proyectos": "Projetos",
+    "contacto": "Contato"
+  },
+  "home": {
+    "name_home": "Sergio Coitiño",
+    "title_home": "Desenvolvedor Full-Stack"
+  },
+  "sobre":{
+    "titulo": "Sobre Mim",
+    "parrafo1": "Olá, sou Sergio Coitiño, desenvolvedor web com foco em Front End e em formação para me tornar Full Stack Developer. Trabalhei em projetos utilizando HTML, CSS, JavaScript, React JS, Vite e também tenho experiência em backend com Node.js.",
+    "parrafo2": "Gosto de construir interfaces funcionais e bem estruturadas, aplicar boas práticas e levar meus projetos desde a ideia até o deploy usando Git, GitHub e serviços de hospedagem. Sigo aprendendo e aprimorando minhas habilidades para crescer como profissional no mundo do desenvolvimento web.",
+    "skill1": "Tecnologias que utilizo",
+    "skill2": "Atualmente Estudando / Aperfeiçoando"
+  },
+    "proyectos": {
+    "titulo": "Meus Projetos",
+    "descripcion01": "Este projeto é uma aplicação web interativa que permite aos usuários calcular seu IMC de forma rápida e simples. Conta com uma interface amigável e responsiva, cálculo de IMC baseado na fórmula padrão, design atraente e minimalista e está disponível em três idiomas.",
+    "descripcion02": "Este projeto é um perfil profissional online que apresenta as informações de contato e os links para as redes sociais do usuário. O design é minimalista e fácil de navegar, o que o torna ideal para qualquer profissional que deseje ter presença online.",
+    "descripcion03": "Esta página web é um tributo ao filme do Batman dirigido por Christopher Nolan. É uma página que replica um site de informações e personagens desse filme. Disponível apenas em português.",
+    "descripcion04": "Portfólio web pessoal de Sergio Coitiño, desenvolvido com HTML, CSS, JavaScript, React, Vite e Node.js. Apresenta meus projetos front-end e back-end, com design responsivo e deploy online. Disponível em espanhol e português para facilitar o acesso a diferentes públicos.",
+    "descripcion05": "StarWars Gallery é uma aplicação web criada com React e Vite que exibe personagens, planetas e naves de Star Wars utilizando APIs públicas. Apresenta uma galeria dinâmica, responsiva e baseada no exemplo do Bootstrap Gallery, otimizada para oferecer uma experiência visual limpa, rápida e moderna.",
+    "descripcion06": "Star Wars Characters é uma aplicação web desenvolvida com HTML, CSS e JavaScript que consome a API SWAPI para exibir informações e imagens personalizadas de personagens icônicos. Um projeto focado em aprimorar habilidades de front-end, consumo de APIs e experiência do usuário."
+  },
+  "contacto": {
+    "titulo": "Entre em Contato",    
+    "nombre_placeholder": "Nome",
+    "mensaje_placeholder": "Digite aqui sua mensagem",
+    "boton": "Enviar WhatsApp",
+    "developed": "Desenvolvido por Sergio Coitiño.",
+    "rights": "Todos os direitos reservados."
+  }
+}

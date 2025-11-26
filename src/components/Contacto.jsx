@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-// import Translate from './Translate';
+import { getTranslation } from '../languages'
 
-const Formulario = () => {
+
+const Formulario = ({ lang, setLang }) => {
+  const t = getTranslation(lang);
   const [nombre, setNombre] = useState('');
   const [mensaje, setMensaje] = useState('');
 
@@ -23,7 +25,7 @@ const Formulario = () => {
   return (
     <>
   <section id="contacto" className="contatos">
-    <h2 className="seccion-titulo">Entre en contacto</h2>
+    <h2 className="seccion-titulo">{t.contacto.titulo}</h2>
 
     <form className="formulario-contato" id="formulario" onSubmit={enviarWhats}>
         <div className="grupo-form">
@@ -31,7 +33,7 @@ const Formulario = () => {
             value={nombre}
             onChange={(e) => setNombre(e.target.value)}
             className="campo-form"
-            placeholder="Nombre"
+            placeholder={t.contacto.nombre_placeholder}
           />
         </div>
 
@@ -40,12 +42,12 @@ const Formulario = () => {
             value={mensaje}
             onChange={(e) => setMensaje(e.target.value)}
             className="campo-form"
-            placeholder="Escriba aqui su mensaje"
+            placeholder={t.contacto.mensaje_placeholder}
             rows="6"
           />
         </div>
 
-        <button type="submit"  className="botao-form">Enviar WhatsApp</button>
+        <button type="submit"  className="botao-form">{t.contacto.boton}</button>
         
     </form>
   </section>
@@ -55,9 +57,9 @@ const Formulario = () => {
             href="https://github.com/SergioCoitino" 
             target="_blank"
             rel='noopener noreferrer'>
-            <p>Desarrollado por Sergio Coitiño.</p>
+            <p>{t.contacto.developed}</p>
           </a>
-          <p>&copy; {new Date().getFullYear()} Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} {t.contacto.rights}</p>
 
   </footer>
   </>

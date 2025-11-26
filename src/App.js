@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import Formulario from './components/Contacto';
 import Header from './components/Header';
 import Inicio from './components/Inicio';
@@ -7,14 +8,17 @@ import './index.css';
 
 
 function App() {
+
+  const [lang, setLang] = useState("pt");
+
   return (
     <>
     <div class="particulas"></div>
-        <Header/>
-        <Inicio/>
-        <Sobre/>
-        <Proyectos/>
-        <Formulario/>
+        <Header lang={lang} setLang={setLang}/>
+        <Inicio lang={lang} setLang={setLang}/>
+        <Sobre lang={lang} setLang={setLang}/>
+        <Proyectos lang={lang} setLang={setLang}/>
+        <Formulario lang={lang} setLang={setLang}/>
     </>
   );
 }

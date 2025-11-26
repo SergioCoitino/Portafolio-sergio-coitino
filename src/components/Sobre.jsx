@@ -1,28 +1,22 @@
 import React from 'react'
+import { getTranslation } from '../languages'
 
-function Sobre() {
+
+const Sobre = ({ lang, setLang }) => {
+    const t = getTranslation(lang);
   return (
     <section id="sobre" class="sobre">
 
-        <h2 class="seccion-titulo">Sobre mi</h2>
+        <h2 class="seccion-titulo">{t.sobre.titulo}</h2>
         <div class="sobre-caixa">
-            <p sobre-paragrafo>
-              Hola, soy Sergio Coitiño, desarrollador web con enfoque en Front End y en formación para 
-              convertirme en Full Stack Developer. He trabajado en proyectos utilizando HTML, CSS, JavaScript, 
-              React JS, Vite, y también cuento con experiencia en backend con Node.js.
-              <br /><br />
-              Me gusta construir interfaces funcionales y bien estructuradas, aplicar buenas prácticas y llevar 
-              mis proyectos desde la idea hasta el despliegue usando Git, GitHub y servicios de hosting.
-              Sigo aprendiendo y perfeccionando mis habilidades para crecer como profesional dentro del mundo del
-               desarrollo web.
-              </p>
+            <p sobre-paragrafo>{t.sobre.parrafo1}</p>
+            <br />
+            <p sobre-paragrafo >{t.sobre.parrafo2}</p>
         </div>
-
         <br />
-        
         <div class="sobre-caixa">
               <div class="skills-group">
-                <h4 className='tecnologias'>Tecnologías que utilizo</h4>
+                <h4 className='tecnologias'>{t.sobre.skill1}</h4>
                 <br />
                 <div class="skills-icons">
                   
@@ -58,11 +52,9 @@ function Sobre() {
 
                 </div>
               </div>
-
               <br />
-
               <div class="skills-group">
-                <h4 className='tecnologias'>Actualmente Estudiando / Mejorando</h4>
+                <h4 className='tecnologias'>{t.sobre.skill2}</h4>
                 <br />  
                 <div class="skills-icons">
 
