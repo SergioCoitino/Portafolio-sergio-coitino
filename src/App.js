@@ -5,6 +5,7 @@ import Inicio from './components/Inicio';
 import Proyectos from './components/Proyectos';
 import Sobre from './components/Sobre';
 import './index.css';
+import MobileDropdownMenu from "./components/HeaderMobile";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <>
     <div class="particulas"></div>
         <Header lang={lang} setLang={setLang}/>
+        <MobileDropdownMenu/>
         <Inicio lang={lang} setLang={setLang}/>
         <Sobre lang={lang} setLang={setLang}/>
         <Proyectos lang={lang} setLang={setLang}/>
