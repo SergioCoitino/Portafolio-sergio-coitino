@@ -16,7 +16,7 @@ function App() {
     <>
     <div class="particulas"></div>
         <Header lang={lang} setLang={setLang}/>
-        <MobileDropdownMenu/>
+        <MobileDropdownMenu lang={lang} setLang={setLang}/>
         <Inicio lang={lang} setLang={setLang}/>
         <Sobre lang={lang} setLang={setLang}/>
         <Proyectos lang={lang} setLang={setLang}/>
