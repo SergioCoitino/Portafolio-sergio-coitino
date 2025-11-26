@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+// import Translate from './Translate';
 
 const Formulario = () => {
   const [nombre, setNombre] = useState('');

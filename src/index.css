@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -64,6 +66,7 @@ body{
     width: 100%;
 }
 
+
 .cabecalho{
     min-height: 100vh;
     display: flex;
@@ -121,19 +124,18 @@ h1{
     text-align: center;
 }
 
-
 .skills-icons {
   display: flex;
-  flex-wrap: wrap;       /* permite que, si falta espacio, pasen a la siguiente fila */
+  flex-wrap: wrap;     
   justify-content: center;
-  gap: 10px;             /* espacio entre cada ícono */
+  gap: 10px;           
 }
 
 .skill-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 75px;          /* asegura que queden parejos en la fila */
+  width: 75px;    
 }
 
 .skill-item i {
@@ -326,4 +328,20 @@ a:hover {
     .campo-form{
         font-size: 0.7rem;
     }
+}
+
+
+.idiomas {
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  right: 80px;
+}
+
+.idiomas img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 1px;
+  cursor: pointer;
 }

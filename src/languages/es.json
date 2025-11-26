@@ -1,0 +1,12 @@
+[
+  {
+    "code": "es",
+    "label": "Español",
+    "flag": "/assets/flags/es.png"
+  },
+  {
+    "code": "pt",
+    "label": "Português",
+    "flag": "/assets/flags/pt.png"
+  }
+]
