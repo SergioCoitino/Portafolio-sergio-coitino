@@ -1,6 +1,6 @@
 import React from 'react'
-import FlagEs from '../assets/flags/es.png'
-import FlagPt from '../assets/flags/pt.png'
+import Idiomas from './Idiomas'
+
 
 
 function Header() {
@@ -13,10 +13,7 @@ function Header() {
     return (
     <nav class="navegacao">
         <ul class="menu">
-            <li className="idiomas">        
-                <img src={FlagEs} alt="Español" onClick={() => ('es')} />
-                <img src={FlagPt} alt="Portugués" onClick={() => ('pt')} />                
-            </li>   
+            <Idiomas/>   
             <li>
                 <a href="#inicio" class="menu-link">Inicio</a>
             </li>
