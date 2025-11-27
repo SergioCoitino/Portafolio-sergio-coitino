@@ -11,7 +11,7 @@ const Formulario = ({ lang, setLang }) => {
     event.preventDefault();
 
     const telefono = '5531989296557';
-    const texto = `${mensaje}. Mensaje de ${nombre}`;
+    const texto = `${mensaje}. (${nombre})`;
 
     const mensajeFormato = encodeURIComponent(texto);
     const url = `https://wa.me/${telefono}?text=${mensajeFormato}`;
