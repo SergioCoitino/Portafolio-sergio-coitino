@@ -6,7 +6,7 @@ Mi portafolio personal desarrollado para presentar mis habilidades, proyectos y 
 
 ## 📸 Vista previa
 
-![preview](./preview.PNG)
+![preview](./public//preview.PNG)
 
 ---
 
@@ -80,12 +80,6 @@ Soy **Sergio Coitiño**, desarrollador y diseñador con experiencia en creación
 ## 📬 Contacto
 - **LinkedIn**: https://www.linkedin.com/in/sergiocoitino/  
 - **GitHub**: https://github.com/SergioCoitino  
-
----
-
-## 📸 Vista previa
-
-![Preview del proyecto](./public/preview.png)
 
 ---
 
