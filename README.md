@@ -1,4 +1,4 @@
-# Portafolio – Sergio Coitino
+# Portafolio – Sergio Coitiño
 
 Mi portafolio personal desarrollado para presentar mis habilidades, proyectos y experiencia profesional. Es una web moderna, responsiva y disponible en **español y portugués**, con foco en diseño limpio y navegación intuitiva.
 
