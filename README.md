@@ -1,108 +1,99 @@
-# 🌐 Portafolio Personal - Sergio Coitiño
+# Portafolio – Sergio Coitiño
 
-Este es mi portafolio web desarrollado en **React**, donde presento mis proyectos, habilidades y experiencia profesional.  
-Incluye un **sistema de cambio de idioma** que permite visualizar el contenido en **español** y **portugués (BR)** de forma dinámica sin recargar la página.
-
----
-
-## 🚀 Tecnologías utilizadas
-
-- React JS  
-- JavaScript (ES6+)  
-- HTML5  
-- CSS3  
-- Create React App  
-- Git & GitHub  
-
----
-
-## 🌍 Funcionalidad de idiomas
-
-El proyecto incorpora una lógica personalizada para gestionar traducciones mediante archivos de idioma y un selector que permite alternar entre:
-
-- 🇪🇸 Español  
-- 🇧🇷 Português (Brasil)
-
-Todo el contenido del sitio se adapta automáticamente al idioma seleccionado.
+Mi portafolio personal desarrollado para presentar mis habilidades, proyectos y experiencia profesional. Es una web moderna, responsiva y disponible en **español y portugués**, con foco en diseño limpio y navegación intuitiva.
 
 ---
 
 ## 📸 Vista previa
- 
-![Preview del proyecto](./public/preview.PNG)
+![preview](./preview.jpg)
 
 ---
 
-## 📁 Estructura del proyecto
-
-├── public/
-├── src/
-│ ├── components/
-│ ├── assets/
-│ ├── languages/ # Archivos de idioma (ES / PT) - # Lógica de cambio de idioma
-│ ├── App.js
-│ ├── index.js
-│ └── styles.css
-├── .gitignore
-├── package.json
-└── README.md
-
+## 🌍 Características principales
+- 🌐 **Disponible en dos idiomas**: Español y Portugués  
+- 🎨 **Diseño responsivo** (desktop + mobile)  
+- ⚛️ **Construido con React**  
+- 📁 Sección de proyectos con enlaces directos  
+- 📬 Formulario de contacto  
+- 📄 Sección “Sobre mí” profesional
 
 ---
 
-## 🛠️ Cómo ejecutar el proyecto
+## 🛠️ Tecnologías utilizadas
+- **React**
+- **JavaScript (ES6+)**
+- **CSS**
+- **CRA**
+- Iconografía con **FontAwesome**
 
-1. **Clonar el repositorio**
+---
 
+## 🚀 Cómo ejecutar el proyecto localmente
 
+### 1️⃣ Clonar el repositorio
+```bash
 git clone https://github.com/SergioCoitino/Portafolio-sergio-coitino.git
+cd Portafolio-sergio-coitino
+```
 
-
-2. **Instalar dependencias**
-
-
+### 2️⃣ Instalar dependencias
+```bash
 npm install
+```
 
-
-3. **Iniciar el servidor de desarrollo**
-
-
+### 3️⃣ Ejecutar en modo desarrollo
+```bash
 npm start
+```
 
-
-El sitio estará disponible en:  
-👉 http://localhost:3000
-
----
-
-## 🌎 Deploy
-
-> *Agrega aquí el link cuando el proyecto esté desplegado (Netlify, Vercel, GitHub Pages, etc.)*
+### 4️⃣ Generar build de producción
+```bash
+npm run build
+```
 
 ---
 
-## 👨‍💻 Sobre mí
-
-Soy **Sergio Coitiño**, desarrollador front-end orientado a crear experiencias web modernas, limpias y eficientes.  
-Además, complemento mi perfil técnico con habilidades en **marketing digital, diseño y ventas**, lo que me permite desarrollar soluciones integrales orientadas a resultados.
+## 📂 Estructura del proyecto
+```
+📦 Portafolio-sergio-coitino
+ ┣ 📁 public
+ ┣ 📁 src
+ ┃ ┣ 📁 components
+ ┃ ┣ 📁 languages
+ ┃ ┗ 📁 assets
+ ┣ 📄 App.js
+ ┣ 📄 index.js
+ ┣ 📄 index.css
+ ┣ 📄 package.json
+ ┣ 📄 README.md
+ ┗ 📄 LICENSE.md
+```
 
 ---
 
-## 🔗 Contacto
+## 🧑‍💼 Sobre mí
+Soy **Sergio Coitiño**, desarrollador y diseñador con experiencia en creación de aplicaciones web, interfaces modernas y sitios responsivos. Este portafolio reúne mis proyectos recientes y la información necesaria para contactarme profesionalmente.
 
-- **LinkedIn:** https://www.linkedin.com/in/sergiocoitino/  
-- **GitHub:** https://github.com/SergioCoitino  
+---
+
+## 📬 Contacto
+- **LinkedIn**: https://www.linkedin.com/in/sergiocoitino/  
+- **GitHub**: https://github.com/SergioCoitino  
+
+---
+
+## 📸 Vista previa
+
+![Preview del proyecto](./public/preview.png)
+
+---
+
+## 🙌 Contribuciones
+Por ahora **no se aceptan contribuciones externas**.  
+Este repositorio es de uso personal.
 
 ---
 
 ## 📄 Licencia
-
-Proyecto bajo licencia **MIT**.  
-Libre para usar, modificar y adaptar.
-
----
-
-## ❗ Estado del proyecto
-
-Por ahora **no se aceptan contribuciones** externas.
-
+Este proyecto está bajo la licencia **MIT**.  
+Consulta el archivo [`LICENSE.md`](./LICENSE.md) para más detalles.
