@@ -1,12 +1,17 @@
-# Portafolio – Sergio Coitiño
+# Portafolio – Sergio Coitino
 
 Mi portafolio personal desarrollado para presentar mis habilidades, proyectos y experiencia profesional. Es una web moderna, responsiva y disponible en **español y portugués**, con foco en diseño limpio y navegación intuitiva.
 
 ---
 
+## 🌎 Disponible en otros idiomas
+- 🇧🇷 [Português](README.pt.md)
+
+---
+
 ## 📸 Vista previa
 
-![preview](./public//preview.PNG)
+![preview](./public/preview.PNG)
 
 ---
 
@@ -80,6 +85,14 @@ Soy **Sergio Coitiño**, desarrollador y diseñador con experiencia en creación
 ## 📬 Contacto
 - **LinkedIn**: https://www.linkedin.com/in/sergiocoitino/  
 - **GitHub**: https://github.com/SergioCoitino  
+
+---
+
+## ⭐ Apoya este proyecto
+Si este portafolio te fue útil o te sirvió como inspiración, considera dejar una **estrella en GitHub** ⭐.  
+¡Esto ayuda a que el proyecto gane visibilidad y me motiva a seguir creando y mejorando!
+
+👉 https://github.com/SergioCoitino/Portafolio-sergio-coitino
 
 ---
 
