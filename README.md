@@ -6,7 +6,7 @@ Mi portafolio personal desarrollado para presentar mis habilidades, proyectos y 
 
 ## 📸 Vista previa
 
-![preview](./public/preview.png)
+![preview](./preview.PNG)
 
 ---
 
