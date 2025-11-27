@@ -5,7 +5,7 @@ Mi portafolio personal desarrollado para presentar mis habilidades, proyectos y 
 ---
 
 ## 🌎 Disponible en otros idiomas
-- 🇧🇷 [Português](README.pt.md) &#x1f1e7;&#x1f1f7;
+- 🇧🇷 [Português](README.pt.md)
 
 
 ---
