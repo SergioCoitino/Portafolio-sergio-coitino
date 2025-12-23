@@ -1,6 +1,6 @@
 import React from 'react'
 import Proyecto01 from '../assets/proyectos/IMC.png'
-import Proyecto02 from '../assets/proyectos/LinkInBio.png'
+import Proyecto02 from '../assets/proyectos/LinkInBio.jpg'
 import Proyecto03 from '../assets/proyectos/Batman_FanPage.png'
 import Proyecto04 from '../assets/proyectos/Portfolio.png'
 import Proyecto05 from '../assets/proyectos/StarWarsGallery.png'
@@ -81,7 +81,7 @@ const Proyectos = ({ lang, setLang }) => {
                     <p className="paragrafo-projetos">{t.proyectos.descripcion06}</p>
                 </div>
             </div>
-            
+
             <div className="projetos-card">
                 <img src={Proyecto03} alt="Projeto3" className="projetos-imagem" />
                 <div className="overlay">
