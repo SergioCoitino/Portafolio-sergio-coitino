@@ -1,6 +1,6 @@
 import React from 'react'
 import Proyecto01 from '../assets/proyectos/IMC.png'
-import Proyecto02 from '../assets/proyectos/LinkInBio.jpg'
+import Proyecto02 from '../assets/proyectos/LinkInBio.jpeg'
 import Proyecto03 from '../assets/proyectos/Batman_FanPage.png'
 import Proyecto04 from '../assets/proyectos/Portfolio.png'
 import Proyecto05 from '../assets/proyectos/StarWarsGallery.png'
