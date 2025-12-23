@@ -44,19 +44,6 @@ const Proyectos = ({ lang, setLang }) => {
             </div>
 
             <div className="projetos-card">
-                <img src={Proyecto03} alt="Projeto3" className="projetos-imagem" />
-                <div className="overlay">
-                    <a href="https://projeto-batman1.netlify.app/" target='_blank' rel='noopener, noreferrer'>
-                        <FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="external-icon" />
-                    </a>
-                </div>
-                <div className="caixa-textos-projeto">
-                    <h3 className="info-projetos">Batman Page</h3>
-                    <p className="paragrafo-projetos">{t.proyectos.descripcion03}</p>
-                </div>
-            </div>
-
-            <div className="projetos-card">
                 <img src={Proyecto04} alt="Projeto1" className="projetos-imagem" />
                 <div className="overlay">
                     <a href="#inicio" target='_blank' rel='noopener, noreferrer'>
@@ -92,6 +79,19 @@ const Proyectos = ({ lang, setLang }) => {
                 <div className="caixa-textos-projeto">
                     <h3 className="info-projetos">Star Wars Characters</h3>
                     <p className="paragrafo-projetos">{t.proyectos.descripcion06}</p>
+                </div>
+            </div>
+            
+            <div className="projetos-card">
+                <img src={Proyecto03} alt="Projeto3" className="projetos-imagem" />
+                <div className="overlay">
+                    <a href="https://projeto-batman1.netlify.app/" target='_blank' rel='noopener, noreferrer'>
+                        <FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="external-icon" />
+                    </a>
+                </div>
+                <div className="caixa-textos-projeto">
+                    <h3 className="info-projetos">Batman Page</h3>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion03}</p>
                 </div>
             </div>
         </div>
