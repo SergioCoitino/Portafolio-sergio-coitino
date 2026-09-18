@@ -10,7 +10,7 @@ const Formulario = ({ lang, setLang }) => {
   const enviarWhats = (event) => {
     event.preventDefault();
 
-    const telefono = '5531989296557';
+    const telefono = '5533998359053';
     const texto = `${mensaje}. (${nombre})`;
 
     const mensajeFormato = encodeURIComponent(texto);
