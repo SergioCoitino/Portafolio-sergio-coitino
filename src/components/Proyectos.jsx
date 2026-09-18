@@ -5,6 +5,7 @@ import Proyecto03 from '../assets/proyectos/Batman_FanPage.png'
 import Proyecto04 from '../assets/proyectos/Portfolio.png'
 import Proyecto05 from '../assets/proyectos/StarWarsGallery.png'
 import Proyecto06 from '../assets/proyectos/StarWarsCharacters.png'
+import Proyecto07 from '../assets/proyectos/star-wars-app.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import { getTranslation } from '../languages'
@@ -94,6 +95,19 @@ const Proyectos = ({ lang, setLang }) => {
                     <p className="paragrafo-projetos">{t.proyectos.descripcion03}</p>
                 </div>
             </div>
+            
+            <div className="projetos-card">
+                <img src={Proyecto07} alt="Projeto7" className="projetos-imagem" />
+                <div className="overlay">
+                    <a href="https://star-warsapp.netlify.app/" target='_blank' rel='noopener, noreferrer'>
+                        <FontAwesomeIcon icon={faExternalLinkAlt} size='2x' className="external-icon" />
+                    </a>
+                </div>
+                <div className="caixa-textos-projeto">
+                    <h3 className="info-projetos">Star Wars App</h3>
+                    <p className="paragrafo-projetos">{t.proyectos.descripcion07}</p>
+                </div>
+            </div>            
         </div>
     </section>
   )

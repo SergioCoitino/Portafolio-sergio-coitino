@@ -24,7 +24,9 @@
     "descripcion03": "Esta página web es un tributo a la película de Batman dirigida por Christopher Nolan. Es una página que replica una web de informacion y personajes de esta pelicula. Disponibe solo en portugués",
     "descripcion04": "Portfolio web personal de Sergio Coitiño, desarrollado con HTML, CSS, JavaScript, React, Vite y Node.js. Presenta mis proyectos de front-end y back-end, con diseño responsivo y despliegue online. Disponible en español e portugués para facilitar su accesibilidad.",
     "descripcion05": "StarWars Gallery es una aplicación web creada con React y Vite que muestra personajes, planetas y naves de Star Wars mediante APIs públicas. Presenta una galería dinámica, responsiva y basada en el ejemplo de Bootstrap Gallery, optimizada para ofrecer una experiencia visual limpia, rápida y moderna.",
-    "descripcion06": "Star Wars Characters es una aplicación web desarrollada con HTML, CSS y JavaScript que consume la API SWAPI para mostrar información y imágenes personalizadas de personajes icónicos. Un proyecto enfocado en mejorar habilidades de front-end, manejo de APIs y experiencia de usuario."
+    "descripcion06": "Star Wars Characters es una aplicación web desarrollada con HTML, CSS y JavaScript que consume la API SWAPI para mostrar información y imágenes personalizadas de personajes icónicos. Un proyecto enfocado en mejorar habilidades de front-end, manejo de APIs y experiencia de usuario.",
+    "descripcion07": "Star Wars App es una Aplicación web desarrollada en React que consume la API SWAPI para explorar personajes, planetas, naves, vehículos y especies de Star Wars, con paginación, detalles, imágenes y diseño responsivo y moderno."
+
   },
   "contacto":{
     "titulo": "Entre en Contacto",
