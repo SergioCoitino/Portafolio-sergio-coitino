@@ -26,7 +26,7 @@ const Header = ({ lang, setLang }) => {
                 <img src={FlagPt} alt="Portugués" onClick={() => setLang("pt")} />
           </ul> 
               <div>
-      <h1>Bandera de Argentina:</h1>
+      {/* <h1>Bandera de Argentina:</h1>
       <ReactCountryFlag
         countryCode="AR" // Código ISO del país
         svg
@@ -35,7 +35,7 @@ const Header = ({ lang, setLang }) => {
           height: "3em",
         }}
         title="Argentina"
-      />
+      /> */}
     </div>
       </nav>  
       
