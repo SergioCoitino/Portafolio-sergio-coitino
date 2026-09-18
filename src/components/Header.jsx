@@ -20,11 +20,14 @@ const Header = ({ lang, setLang }) => {
               <li><a href="#proyectos" class="menu-link">{t.header.proyectos}</a></li>
 
               <li><a href="#contacto" class="menu-link">{t.header.contacto}</a></li>      
-          </ul> 
-          <ul className="idiomas">
+
+              <li className="idiomas">
                 <img src={FlagEs} alt="Español" onClick={() => setLang("es")} />
                 <img src={FlagPt} alt="Portugués" onClick={() => setLang("pt")} />
+              </li>
+
           </ul> 
+
       </nav>  
       
 

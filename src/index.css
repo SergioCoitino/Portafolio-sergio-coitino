@@ -25,7 +25,7 @@ body{
     color: var(--claro);
 }
 
-/* HEADER COMPONENT */
+/* HEADER COMPONENT (DESKTOP) */
 
 .navegacao{
     position: fixed;
@@ -33,14 +33,20 @@ body{
     background: rgba(15, 23, 42, 0.99);
     width: 100%;
     z-index: 1000;
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .menu{
     display: flex;
-    justify-content: center;
+    align-items: center;
     list-style: none;
     gap: 3rem;
+    width: 100%;
+}
+
+/* Centraliza os links principais */
+.menu li:first-child {
+    margin-left: auto;
 }
 
 .menu-link{
@@ -67,70 +73,35 @@ body{
 }
 
 
-/* languages */
+/* LANGUAGES (PADRÃO & DESKTOP) */
 
-.idiomas{
-        position: fixed;
-    top: 20px;
-    right: 20px;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    border: 2px solid var(--primary-color);
-    background: var(--secondary-color);
-    color: var(--primary-color);
+.idiomas {
     display: flex;
     align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    font-size: 18px;
-    z-index: 1000;
-    transition: 0.3s ease;
+    gap: 0.8rem;
+    margin-left: auto; /* Empurra para a direita no desktop */
 }
 
-.idiomas img {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
-  border-radius: 1px;
-  cursor: pointer;
-}
-
-/* .idiomas {
-  display: flex;
-  gap: 10px;
-  position: fixed;
-  right: 80px;
-  top: 17px;
-}
-
-.idiomas img {
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
-  border-radius: 1px;
-  cursor: pointer;
-}
-
+.idiomas img, 
 .idiomas-mobile img {
-  width: 25px;
-  height: 25px;
-  object-fit: cover;
-  border-radius: 1px;
-  cursor: pointer;
+    width: 24px !important;
+    height: 24px !important;
+    max-width: 24px !important;
+    max-height: 24px !important;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.idiomas-mobile {
-  display: flex;
-  gap: 10px;
-  position: fixed;
-  right: 30px;
-  top: 15px;
-} */
+.idiomas img:hover,
+.idiomas-mobile img:hover {
+    transform: scale(1.15);
+    opacity: 0.85;
+}
 
 
 /* HEADER MOBILE COMPONENT */
-
 
 .mobile-nav {
     position: fixed;
@@ -138,21 +109,27 @@ body{
     background: rgba(15, 23, 42, 0.99);
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Mantém hambúrguer à esquerda e bandeiras à direita */
     width: 100%;
     z-index: 999;
-    padding: 0.4rem;
+    padding: 0.6rem 1rem;
 }
 
-
 .menu-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: transparent;
-  border: none;
-  padding: 8px;
-  cursor: pointer;
-  color: inherit;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    color: inherit;
+}
+
+.idiomas-mobile {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
 }
 
 /* Contenedor del menú (oculto por defecto) */
@@ -180,29 +157,29 @@ body{
 
 /* Estado abierto */
 .mobile-menu.open {
-  transform: scaleY(1);
-  opacity: 1;
-  pointer-events: auto;
+    transform: scaleY(1);
+    opacity: 1;
+    pointer-events: auto;
 }
 
 /* Items */
 .mobile-menu li {
-  padding: 6px 16px;
+    padding: 6px 16px;
 }
 
 .mobile-menu a {
-  display: block;
-  text-decoration: none;
-  color: var(--claro);
-  font-weight: 500;
+    display: block;
+    text-decoration: none;
+    color: var(--claro);
+    font-weight: 500;
 }
 
 /* Hover / foco */
 .mobile-menu a:hover,
 .mobile-menu a:focus {
-  background: rgba(0,0,0,0.04);
-  border-radius: 6px;
-  outline: none;
+    background: rgba(0,0,0,0.04);
+    border-radius: 6px;
+    outline: none;
 }
 
 
@@ -224,6 +201,7 @@ body{
     border: 4px solid var(--vidro);
     animation: flutuar 5s ease-in-out infinite;
 }
+
 h1{
     font-size: 3.5rem;
     color: var(--primaria);
@@ -269,27 +247,27 @@ h1{
 }
 
 .skills-icons {
-  display: flex;
-  flex-wrap: wrap;     
-  justify-content: center;
-  gap: 10px;           
+    display: flex;
+    flex-wrap: wrap;     
+    justify-content: center;
+    gap: 10px;           
 }
 
 .skill-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 75px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75px;    
 }
 
 .skill-item i {
-  font-size: 35px;
+    font-size: 35px;
 }
 
 .skill-item p {
-  margin-top: 8px;
-  font-size: 10px;
-  font-weight: 500;
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: 500;
 }
 
 
@@ -298,7 +276,6 @@ h1{
 .projetos{
     padding: 6rem 2rem;
 }
-
 
 .projetos-card:hover{
     box-shadow: 0 10px 20px rgba(79, 70, 229, 0.2);
@@ -332,6 +309,7 @@ h1{
 .external-icon{
     color: #4f46e5;
 }
+
 .overlay {
     position: absolute;
     top: 0;
@@ -366,11 +344,9 @@ h1{
 
 /* CONTACTO COMPONENT */
 
-
 .contatos{
     padding: 6rem 2rem;
 }
-
 
 .formulario-contato{
     max-width: 600px;
@@ -473,14 +449,12 @@ a:hover {
 /* RESPONSIVE 500PX */
 
 @media (max-width: 500px) {
-
-
     h1{
         text-align: center;
         font-size: 2.5rem;
     }
     .cabecalho-sub-titulo{
-    font-size: 1.2rem;
+        font-size: 1.2rem;
     }
     .seccion-titulo{
         font-size: 2.2rem;
@@ -494,11 +468,10 @@ a:hover {
 }
 
 
-/* OCULTAR HEADER MOBILE*/
+/* OCULTAR HEADER MOBILE EM TELAS GRANDES */
 
 @media (min-width: 751px) {
-  .menu-toggle { display: none; }
-  .mobile-menu { display: none !important; } 
-  .mobile-nav {display: none;}
-
+    .menu-toggle { display: none; }
+    .mobile-menu { display: none !important; } 
+    .mobile-nav { display: none; }
 }
