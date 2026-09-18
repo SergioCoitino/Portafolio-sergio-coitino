@@ -2,6 +2,7 @@ import React from 'react'
 import FlagEs from '../assets/flags/es.png'
 import FlagPt from '../assets/flags/pt.png'
 import { getTranslation } from '../languages'
+import ReactCountryFlag from "react-country-flag";
 
 
 
@@ -24,7 +25,20 @@ const Header = ({ lang, setLang }) => {
                 <img src={FlagEs} alt="Español" onClick={() => setLang("es")} />
                 <img src={FlagPt} alt="Portugués" onClick={() => setLang("pt")} />
           </ul> 
+              <div>
+      <h1>Bandera de Argentina:</h1>
+      <ReactCountryFlag
+        countryCode="AR" // Código ISO del país
+        svg
+        style={{
+          width: "3em",
+          height: "3em",
+        }}
+        title="Argentina"
+      />
+    </div>
       </nav>  
+      
 
 
   )

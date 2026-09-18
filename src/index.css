@@ -69,7 +69,34 @@ body{
 
 /* languages */
 
-.idiomas {
+.idiomas{
+        position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1000;
+    transition: 0.3s ease;
+}
+
+.idiomas img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+/* .idiomas {
   display: flex;
   gap: 10px;
   position: fixed;
@@ -99,7 +126,7 @@ body{
   position: fixed;
   right: 30px;
   top: 15px;
-}
+} */
 
 
 /* HEADER MOBILE COMPONENT */
