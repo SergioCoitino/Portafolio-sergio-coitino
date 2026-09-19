@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import FlagEs from '../assets/flags/es.png'
-import FlagPt from '../assets/flags/pt.png'
+import FlagEs from '../assets/flags/es.webp'
+import FlagPt from '../assets/flags/pt.webp'
 import { getTranslation } from '../languages'
 
 const MobileDropdownMenu = ({ lang, setLang }) => {
