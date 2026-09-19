@@ -1,17 +1,86 @@
-import React from 'react'
+import React from 'react';
 import Profile from '../assets/Sergio_Coitino.jpeg';
-import { getTranslation } from '../languages'
+import { getTranslation } from '../languages';
 
 
-const Inicio = ({ lang, setLang }) => {
-  const t = getTranslation(lang);
-  return (
-    <main id="inicio" class="cabecalho">
-        <img src={Profile} alt="Foto de Sergio Coitiño" class="foto-perfil" />
-        <h1>Sergio Coitiño</h1>
-        <p class="cabecalho-sub-titulo">{t.home.title_home}</p>
-    </main>
-  )
-}
+const Inicio = ({ lang }) => {
 
-export default Inicio
+    const t = getTranslation(lang);
+
+    return (
+        <main
+            id="inicio"
+            className="cabecalho"
+        >
+
+            <img
+                src={Profile}
+                alt="Foto de Sergio Coitiño"
+                className="foto-perfil"
+            />
+
+            <h1>
+                Sergio Coitiño
+            </h1>
+
+            <p className="cabecalho-sub-titulo">
+                {t.home.title_home}
+            </p>
+
+            <p className="cabecalho-sub-titulo tecnologias-home">
+                {t.home.title_home2}
+            </p>
+
+
+            <div className="cabecalho-botoes">
+
+                {/* VER PROJETOS */}
+
+                <a
+                    href="#proyectos"
+                    className="botao-inicio botao-principal"
+                >
+                    {lang === 'es'
+                        ? 'Ver proyectos'
+                        : 'Ver projetos'
+                    }
+                </a>
+
+
+                {/* GITHUB */}
+
+                <a
+                    href="https://github.com/SergioCoitino"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="botao-inicio botao-secundario"
+                >
+                    GitHub
+                </a>
+
+
+                {/* CURRÍCULO */}
+
+                <a
+                    href={
+                        lang === 'es'
+                            ? '/Sergio-Coitino-Curriculo-ES.pdf'
+                            : '/Sergio-Coitino-Curriculo-PT.pdf'
+                    }
+                    download
+                    className="botao-inicio botao-curriculo"
+                >
+                    {lang === 'es'
+                        ? 'Descargar CV'
+                        : 'Baixar CV'
+                    }
+                </a>
+
+            </div>
+
+        </main>
+    );
+};
+
+
+export default Inicio;

@@ -8,7 +8,9 @@
   },
   "home": {
     "name_home": "Sergio Coitiño",
-    "title_home": "Desenvolvedor Full-Stack"
+    "title_home": "Desenvolvedor Front-end",
+    "title_home2": "React • JavaScript • APIs"
+
   },
   "sobre":{
     "titulo": "Sobre Mim",
@@ -19,13 +21,13 @@
   },
     "proyectos": {
     "titulo": "Meus Projetos",
-    "descripcion01": "Este projeto é uma aplicação web interativa que permite aos usuários calcular seu IMC de forma rápida e simples. Conta com uma interface amigável e responsiva, cálculo de IMC baseado na fórmula padrão, design atraente e minimalista e está disponível em três idiomas.",
-    "descripcion02": "Este projeto é um perfil profissional online que apresenta as informações de contato e os links para as redes sociais do usuário. O design é minimalista e fácil de navegar, o que o torna ideal para qualquer profissional que deseje ter presença online.",
-    "descripcion03": "Esta página web é um tributo ao filme do Batman dirigido por Christopher Nolan. É uma página que replica um site de informações e personagens desse filme. Disponível apenas em português.",
-    "descripcion04": "Portfólio web pessoal de Sergio Coitiño, desenvolvido com HTML, CSS, JavaScript, React, Vite e Node.js. Apresenta meus projetos front-end e back-end, com design responsivo e deploy online. Disponível em espanhol e português para facilitar o acesso a diferentes públicos.",
-    "descripcion05": "StarWars Gallery é uma aplicação web criada com React e Vite que exibe personagens, planetas e naves de Star Wars utilizando APIs públicas. Apresenta uma galeria dinâmica, responsiva e baseada no exemplo do Bootstrap Gallery, otimizada para oferecer uma experiência visual limpa, rápida e moderna.",
-    "descripcion06": "Star Wars Characters é uma aplicação web desenvolvida com HTML, CSS e JavaScript que consome a API SWAPI para exibir informações e imagens personalizadas de personagens icônicos. Um projeto focado em aprimorar habilidades de front-end, consumo de APIs e experiência do usuário.",
-    "descripcion07": "Star Wars App é uma Aplicação web desenvolvida em React que consome a API SWAPI para explorar personagens, planetas, naves, veículos e espécies de Star Wars, com paginação, detalhes, imagens e design responsivo e moderno."
+    "descripcion01": "Aplicação criada para calcular o IMC de forma rápida e acessível. Desenvolvi a lógica em JavaScript, validação dos dados, interface responsiva e suporte a diferentes idiomas.",
+    "descripcion02": "Página criada para reunir links e informações profissionais em um único espaço. Desenvolvi uma interface responsiva, modo escuro, detecção do tema do sistema e interações com JavaScript.",
+    "descripcion03": "Página temática criada para praticar desenvolvimento de interfaces com HTML, CSS e JavaScript. O projeto trabalha estrutura semântica, estilização responsiva e organização visual inspirada no universo Batman.",
+    "descripcion04": "Portfólio desenvolvido para apresentar meus projetos, habilidades e formas de contato. Utiliza React, componentes reutilizáveis, suporte multilíngue, layout responsivo e navegação otimizada para diferentes dispositivos.",
+    "descripcion05": "Projeto desenvolvido para organizar e exibir dados da SWAPI de forma visual e responsiva. A solução utiliza React, Vite, paginação, componentes reutilizáveis e tratamento de imagens ausentes.",
+    "descripcion06": "Projeto criado para consumir e apresentar dados de personagens da SWAPI. Implementei requisições à API, renderização dinâmica, tratamento de imagens e uma interface responsiva com JavaScript puro.",
+    "descripcion07": "Aplicação criada para centralizar diferentes categorias da SWAPI em uma única experiência. Desenvolvi navegação, paginação, modais, tratamento de erros e fallback de imagens usando React e componentes reutilizáveis."
 
   },
   "contacto": {
