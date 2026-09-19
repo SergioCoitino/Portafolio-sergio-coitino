@@ -1,7 +1,25 @@
 import React from 'react';
 import { getTranslation } from '../languages';
 
+import {
+    FaHtml5,
+    FaCss3Alt,
+    FaJs,
+    FaNodeJs,
+    FaGitAlt,
+    FaGithub,
+    FaReact
+} from 'react-icons/fa';
+
+import {
+    SiVite,
+    SiMongodb,
+    SiMysql
+} from 'react-icons/si';
+
+
 const Sobre = ({ lang }) => {
+
     const t = getTranslation(lang);
 
     return (
@@ -10,6 +28,7 @@ const Sobre = ({ lang }) => {
             <h2 className="seccion-titulo">
                 {t.sobre.titulo}
             </h2>
+
 
             <div className="sobre-caixa">
 
@@ -25,7 +44,9 @@ const Sobre = ({ lang }) => {
 
             </div>
 
+
             <br />
+
 
             <div className="sobre-caixa">
 
@@ -42,32 +63,32 @@ const Sobre = ({ lang }) => {
                     <div className="skills-icons">
 
                         <div className="skill-item">
-                            <i className="devicon-html5-plain colored"></i>
+                            <FaHtml5 className="skill-icon html-icon" />
                             <p>HTML</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-css3-plain colored"></i>
+                            <FaCss3Alt className="skill-icon css-icon" />
                             <p>CSS</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-javascript-plain colored"></i>
+                            <FaJs className="skill-icon javascript-icon" />
                             <p>JavaScript</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-nodejs-plain colored"></i>
+                            <FaNodeJs className="skill-icon node-icon" />
                             <p>Node.js</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-git-plain colored"></i>
+                            <FaGitAlt className="skill-icon git-icon" />
                             <p>Git</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-github-original"></i>
+                            <FaGithub className="skill-icon github-icon" />
                             <p>GitHub</p>
                         </div>
 
@@ -75,7 +96,9 @@ const Sobre = ({ lang }) => {
 
                 </div>
 
+
                 <br />
+
 
                 {/* ESTUDANDO / APERFEIÇOANDO */}
 
@@ -90,22 +113,22 @@ const Sobre = ({ lang }) => {
                     <div className="skills-icons">
 
                         <div className="skill-item">
-                            <i className="devicon-react-original colored"></i>
+                            <FaReact className="skill-icon react-icon" />
                             <p>React JS</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-vitejs-plain colored"></i>
+                            <SiVite className="skill-icon vite-icon" />
                             <p>Vite</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-mongodb-plain colored"></i>
+                            <SiMongodb className="skill-icon mongodb-icon" />
                             <p>MongoDB</p>
                         </div>
 
                         <div className="skill-item">
-                            <i className="devicon-mysql-plain colored"></i>
+                            <SiMysql className="skill-icon mysql-icon" />
                             <p>SQL / MySQL</p>
                         </div>
 
@@ -118,5 +141,6 @@ const Sobre = ({ lang }) => {
         </section>
     );
 };
+
 
 export default Sobre;
