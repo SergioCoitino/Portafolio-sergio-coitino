@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 
-import Proyecto01 from '../assets/proyectos/IMC.png';
-import Proyecto02 from '../assets/proyectos/LinkInBio.jpeg';
-import Proyecto03 from '../assets/proyectos/Batman_FanPage.png';
-import Proyecto04 from '../assets/proyectos/Portfolio.png';
-import Proyecto05 from '../assets/proyectos/StarWarsGallery.png';
-import Proyecto06 from '../assets/proyectos/StarWarsCharacters.png';
-import Proyecto07 from '../assets/proyectos/star-wars-app.png';
+import Proyecto01 from '../assets/proyectos/IMC.webp';
+import Proyecto02 from '../assets/proyectos/LinkInBio.webp';
+import Proyecto03 from '../assets/proyectos/Batman_FanPage.webp';
+import Proyecto04 from '../assets/proyectos/Portfolio.webp';
+import Proyecto05 from '../assets/proyectos/StarWarsGallery.webp';
+import Proyecto06 from '../assets/proyectos/StarWarsCharacters.webp';
+import Proyecto07 from '../assets/proyectos/star-wars-app.webp';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -176,6 +176,8 @@ const outrosProjetos = [
                     src={projeto.imagem}
                     alt={`Preview do projeto ${projeto.titulo}`}
                     className="projetos-imagem"
+                    loading="lazy"
+                    decoding="async"
                 />
 
                 <div className="overlay">

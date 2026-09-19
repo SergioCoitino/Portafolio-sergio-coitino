@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from '../assets/Sergio_Coitino.jpeg';
+import Profile from '../assets/Sergio_Coitino.webp';
 import { getTranslation } from '../languages';
 
 
@@ -17,6 +17,8 @@ const Inicio = ({ lang }) => {
                 src={Profile}
                 alt="Foto de Sergio Coitiño"
                 className="foto-perfil"
+                decoding="async"
+                fetchPriority="high"
             />
 
             <h1>
