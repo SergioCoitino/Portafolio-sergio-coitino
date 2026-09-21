@@ -67,8 +67,8 @@ const Inicio = ({ lang }) => {
                 <a
                     href={
                         lang === 'es'
-                            ? '/Sergio-Coitino-Curriculo-ES.pdf'
-                            : '/Sergio-Coitino-Curriculo-PT.pdf'
+                            ? '/Sergio_Coitino_Curriculo_ES.pdf'
+                            : '/Sergio_Coitino_Curriculo_PT.pdf'
                     }
                     download
                     className="botao-inicio botao-curriculo"
